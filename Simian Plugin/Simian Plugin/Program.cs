@@ -78,11 +78,13 @@ namespace Simian_Plugin
                 {
                     filePath = filePath.Substring(filePath.IndexOf('\\') + 1);
                     filePath = filePath.Substring(filePath.IndexOf('\\') + 1);
+                    filePath = filePath.Substring(filePath.IndexOf('\\') + 1);
 
                     filePath = filePath.Replace("\\", "/");
                 }
                 else
                 {
+                    filePath = filePath.Substring(filePath.IndexOf('/') + 1);
                     filePath = filePath.Substring(filePath.IndexOf('/') + 1);
                     filePath = filePath.Substring(filePath.IndexOf('/') + 1);
                 }
