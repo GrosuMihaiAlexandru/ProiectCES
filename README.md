@@ -5,8 +5,8 @@ Simian DX Plugin uses the output Simian gives and generates a property file for 
 We recommend running the following docker image: [raulbrumar/simiandx.](https://hub.docker.com/r/raulbrumar/simiandx)
 To run the docker image, simply run the following command:
 ```docker
-   docker run -v [LOCALPATH]:/simianDX/SimianDXData raulbrumar/simiandx "**/*.extension"
-   ```
+ docker run -v [LOCALPATH]:/simianDX/SimianDXData raulbrumar/simiandx "**/*.extension"
+```
    where ```[LOCALPATH]``` is the path where the project's folder you want to analyze is located.
 
 ## Running without Docker
